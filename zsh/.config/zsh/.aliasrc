@@ -1,0 +1,12 @@
+alias ls="ls --color=always"
+
+alias obs="prime-run obs"
+
+alias discord="prime-run discord"
+
+alias firefox="prime-run brave"
+
+alias spotify-launcher="prime-run spotify-launcher"
+
+alias v="nvim"
+alias nv="nvim"
