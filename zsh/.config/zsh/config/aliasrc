@@ -1,6 +1,6 @@
 alias brave="prime-run brave"
 alias discord="prime-run discord"
-
-alias nvidia-settings="sudo env WAYLAND_DISPLAY="$XDG_RUNTIME_DIR/$WAYLAND_DISPLAY" XDG_RUNTIME_DIR=/run/user/0 nvidia-settings"
+alias steam="prime-run steam"
+alias spotify-launcher="prime-run spotify-launcher"
 
 alias nv="nvim"
