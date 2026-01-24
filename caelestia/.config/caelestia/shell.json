@@ -111,9 +111,9 @@
     "showOnHover": true,
     "dragThreshold": 20,
     "scrollActions": {
-      "workspaces": true,
-      "volume": true,
-      "brightness": true
+      "workspaces": false,
+      "volume": false,
+      "brightness": false
     },
     "popouts": {
       "activeWindow": true,
@@ -121,13 +121,13 @@
       "statusIcons": true
     },
     "workspaces": {
-      "shown": 5,
+      "shown": 2,
       "activeIndicator": true,
       "occupiedBg": false,
       "showWindows": true,
       "showWindowsOnSpecialWorkspaces": true,
       "activeTrail": false,
-      "perMonitorWorkspaces": true,
+      "perMonitorWorkspaces": false,
       "label": "  ",
       "occupiedLabel": "󰮯",
       "activeLabel": "󰮯",
@@ -140,9 +140,9 @@
       ]
     },
     "tray": {
-      "background": false,
+      "background": true,
       "recolour": false,
-      "compact": false,
+      "compact": true,
       "iconSubs": []
     },
     "status": {
@@ -150,7 +150,7 @@
       "showMicrophone": false,
       "showKbLayout": false,
       "showNetwork": true,
-      "showBluetooth": true,
+      "showBluetooth": false,
       "showBattery": true,
       "showLockStatus": true
     },
@@ -243,8 +243,25 @@
     "actionPrefix": ">",
     "enableDangerousActions": false,
     "dragThreshold": 50,
-    "vimKeybinds": false,
-    "hiddenApps": [],
+    "vimKeybinds": true,
+    "hiddenApps": [
+      "cmake-gui",
+      "xfce4-about",
+      "bssh",
+      "bvnc",
+      "avahi-discover",
+      "thunar-bulk-rename",
+      "assistant",
+      "qdbusviewer",
+      "linguist",
+      "qv4l2",
+      "qvidcap",
+      "designer",
+      "qt5ct",
+      "thunar",
+      "thunar-settings",
+      "uuctl"
+    ],
     "useFuzzy": {
       "apps": false,
       "actions": false,
