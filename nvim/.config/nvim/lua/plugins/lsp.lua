@@ -1,5 +1,8 @@
 return {
     'neovim/nvim-lspconfig',
+    opts = {
+        inlay_hints = { enabled = true },
+    },
     dependencies = {
         'williamboman/mason.nvim',
         'williamboman/mason-lspconfig.nvim',
@@ -15,7 +18,6 @@ return {
                 'lua_ls',
                 'rust_analyzer',
                 'jsonls',
-                'pyright'
             },
             handlers = {
                 function(server_name) -- default handler (optional)
