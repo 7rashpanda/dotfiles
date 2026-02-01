@@ -17,7 +17,7 @@
         "clock": "Rubik"
       },
       "size": {
-        "scale": 1
+        "scale": 0.93
       }
     },
     "anim": {
@@ -135,7 +135,7 @@
       "statusIcons": true
     },
     "workspaces": {
-      "shown": 2,
+      "shown": 4,
       "activeIndicator": true,
       "occupiedBg": false,
       "showWindows": true,
@@ -160,13 +160,13 @@
       "iconSubs": []
     },
     "status": {
-      "showAudio": false,
-      "showMicrophone": false,
+      "showAudio": true,
+      "showMicrophone": true,
       "showKbLayout": false,
       "showNetwork": true,
-      "showWifi": true,
+      "showWifi": false,
       "showBluetooth": false,
-      "showBattery": true,
+      "showBattery": false,
       "showLockStatus": true
     },
     "clock": {

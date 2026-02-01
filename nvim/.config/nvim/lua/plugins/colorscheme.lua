@@ -44,17 +44,17 @@ return {
 --            ApplyTheme("boo");
 --        end
 --    },
---    {
---        'nyoom-engineering/oxocarbon.nvim',
---        name = "oxocarbon",
---        lazy = false,
---        priority = 1000,
---
---        config = function ()
---            ApplyTheme("oxocarbon")
---
---        end
---    },
+    {
+        'nyoom-engineering/oxocarbon.nvim',
+        name = "oxocarbon",
+        lazy = false,
+        priority = 1000,
+
+        config = function ()
+            ApplyTheme("oxocarbon")
+
+        end
+    },
 --    {
 --        'olivercederborg/poimandres.nvim',
 --        name = "poimandres",
@@ -66,16 +66,16 @@ return {
 --
 --        end
 --    },
-    {
-        "folke/tokyonight.nvim",
-        name = "tokyonight",
-        lazy = false,
-        priority = 1000,
-        opts = {},
-
-        config = function ()
-            ApplyTheme("tokyonight")
-
-        end
-    },
+--    {
+--        "folke/tokyonight.nvim",
+--        name = "tokyonight",
+--        lazy = false,
+--        priority = 1000,
+--        opts = {},
+--
+--        config = function ()
+--            ApplyTheme("tokyonight")
+--
+--        end
+--    },
 }

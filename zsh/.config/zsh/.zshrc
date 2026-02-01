@@ -103,6 +103,10 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
-source ~/.zshenv
+source $HOME/.zshenv
+source $ZDOTDIR/config/aliases
 
 /usr/sbin/caelestia scheme set -n dynamic
+/usr/sbin/fastfetch
+
+. "$HOME/.local/bin/env"

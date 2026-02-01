@@ -1,0 +1,13 @@
+inherits = "ataraxia"
+
+"ui.background" = { }
+"ui.window" = { }
+"ui.popup" = { }
+"ui.help" = { }
+"ui.menu" = { }
+"ui.statusline" = { }
+"ui.statusline.normal" = { }
+"ui.statusline.insert" = { }
+"ui.statusline.select" = { }     # add if present
+"ui.text" = { }                   # ← often the main blocker
+"ui.virtual" = { }                # line numbers, diagnostics, etc.
